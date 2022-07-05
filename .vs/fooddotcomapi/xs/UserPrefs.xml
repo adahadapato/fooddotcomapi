@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="{E01E5504-C2D1-4B94-8421-EBAAF13577B8}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="fooddotcomapi/Services/IGenericRepository.cs">
+    <Files>
+      <File FileName="fooddotcomapi/Startup.cs" Line="13" Column="1" />
+      <File FileName="fooddotcomapi/Data/ApplicationDbContext.cs" Line="19" Column="71" />
+      <File FileName="fooddotcomapi/Models/User.cs" Line="5" Column="2" />
+      <File FileName="fooddotcomapi/Models/Category.cs" Line="15" Column="45" />
+      <File FileName="fooddotcomapi/Models/Product.cs" Line="26" Column="44" />
+      <File FileName="fooddotcomapi/Models/OrderDetail.cs" Line="11" Column="21" />
+      <File FileName="fooddotcomapi/Models/Order.cs" Line="6" Column="9" />
+      <File FileName="fooddotcomapi/Models/ShoppingCartItem.cs" Line="15" Column="1" />
+      <File FileName="fooddotcomapi/Repositories/UserRepository.cs" Line="13" Column="1" />
+      <File FileName="fooddotcomapi/Services/IUserRepository.cs" Line="4" Column="37" />
+      <File FileName="fooddotcomapi/Repositories/GenericRepository.cs" Line="4" Column="35" />
+      <File FileName="fooddotcomapi/Services/IGenericRepository.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="fooddotcomapi" expanded="True">
+            <Node name="fooddotcomapi" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="IGenericRepository.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.fooddotcomapi FirstBuild="True" PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
