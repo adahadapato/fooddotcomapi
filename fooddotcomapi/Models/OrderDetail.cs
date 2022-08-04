@@ -1,8 +1,11 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace fooddotcomapi.Models
 {
     public class OrderDetail
     {
+        [Key]
         public int Id { get; set; }
         public double Price { get; set; }
         public int Qty { get; set; }

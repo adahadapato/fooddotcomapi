@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
@@ -8,6 +9,7 @@ namespace fooddotcomapi.Models
 {
     public class Product
     {
+        [Key]
         public int Id { get; set; }
         public string Name { get; set; }
         public string Detail { get; set; }

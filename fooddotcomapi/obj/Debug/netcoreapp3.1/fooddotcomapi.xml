@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>fooddotcomapi</name>
+    </assembly>
+    <members>
+        <member name="M:fooddotcomapi.Controllers.AccountController.ConfirmEmail(System.String,System.String)">
+            <summary>
+            Confirm email address
+            </summary>
+            <param name="token"></param>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="M:fooddotcomapi.Controllers.AccountController.ResetPassword(fooddotcomapi.Dto.ResetPasswordDto)">
+            <summary>
+            Reset Password
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:fooddotcomapi.Controllers.AccountController.ForgotPassword(fooddotcomapi.Dto.ForgotPasswordDto)">
+            <summary>
+            Frogot Password
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:fooddotcomapi.Controllers.AccountController.Login(fooddotcomapi.Dto.LoginDto)">
+            <summary>
+            Login User
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:fooddotcomapi.Controllers.AccountController.Register(fooddotcomapi.Dto.RegisterDto)">
+            <summary>
+            Register new users
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:fooddotcomapi.Controllers.AccountController.UpdateName(fooddotcomapi.Dto.UpdateNameDto)">
+            <summary>
+            Update User account details with new names
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:fooddotcomapi.Controllers.AccountController.UpdatePhone(fooddotcomapi.Dto.UpdatePhoneDto)">
+            <summary>
+            Updates User Phone number
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:fooddotcomapi.Controllers.AccountController.Delete(System.String)">
+            <summary>
+            Delete account
+            </summary>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="T:fooddotcomapi.Dto.LoginDto">
+            <summary>
+            Login Dto
+            </summary>
+        </member>
+        <member name="M:fooddotcomapi.Repositories.AccountRepository.Get">
+            <summary>
+            Gets the list of all users
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:fooddotcomapi.Repositories.AccountRepository.Register(fooddotcomapi.Dto.RegisterDto)">
+            <summary>
+            Register New Users
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:fooddotcomapi.Repositories.AccountRepository.Delete(System.String)">
+            <summary>
+            Deletes Users whose email is provided
+            </summary>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="M:fooddotcomapi.Repositories.AccountRepository.ConfirmEmail(System.String,System.String)">
+            <summary>
+            Confirm user registered email
+            </summary>
+            <param name="token"></param>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="M:fooddotcomapi.Repositories.AccountRepository.ForgotPassword(System.String)">
+            <summary>
+            Forgot password
+            </summary>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="M:fooddotcomapi.Repositories.AccountRepository.ResetPassword(System.String,System.String,System.String)">
+            <summary>
+            Reset Password
+            </summary>
+            <param name="email"></param>
+            <param name="code"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:fooddotcomapi.Repositories.AccountRepository.Login(fooddotcomapi.Dto.LoginDto)">
+            <summary>
+            Login functionality
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:fooddotcomapi.Repositories.GenericRepository`1.FindAsync(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
